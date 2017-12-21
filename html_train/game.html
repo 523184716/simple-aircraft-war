@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>飞机大战</title>
+    <link type="text/css" rel="stylesheet" href="../css_dir/jd/base.css"/>
+    <link type="text/css" rel="stylesheet" href="../css_dir/air/game.css">
+</head>
+<body>
+    <div class="page-back">
+        <!--设置游戏背景-->
+        <div class="game-bg" id="bg">
+            <!--设置自己的飞机-->
+            <div class="manual-air" id="myaircraft"></div>
+            <!--置放子弹-->
+            <div class="bullet">
+                <img src="../image/aircraft-war/eshot.png" id="eshot1" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot2" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot3" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot4" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot5" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot6" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot7" style="display: none;position: absolute"/>
+                <img src="../image/aircraft-war/eshot.png" id="eshot8" style="display: none;position: absolute"/>
+            </div>
+            <div class="enemy">
+                <img src="../image/aircraft-war/e1.png" style="display: none;position: absolute" id="e1">
+                <img src="../image/aircraft-war/e2.png" style="display: none;position: absolute" id="e2">
+                <img src="../image/aircraft-war/e3.png" style="display: none;position: absolute" id="e3">
+                <img src="../image/aircraft-war/e1.png" style="display: none;position: absolute" id="e4">
+                <img src="../image/aircraft-war/e2.png" style="display: none;position: absolute" id="e5">
+                <img src="../image/aircraft-war/e3.png" style="display: none;position: absolute" id="e6">
+                <img src="../image/aircraft-war/e1.png" style="display: none;position: absolute" id="e7">
+                <img src="../image/aircraft-war/e2.png" style="display: none;position: absolute" id="e8">
+                <img src="../image/aircraft-war/e3.png" style="display: none;position: absolute" id="e9">
+            </div>
+            <!--游戏结束图片效果-->
+            <div >
+                <img src="../image/aircraft-war/over2.jpg" id="over">
+            </div>
+            <!--背景下面存放音频，隐藏，需要的时候触发播放效果即可-->
+            <div>
+                <video controls id="shipin">
+                    <source src="../shipin/aircraft/fun.mp4">
+                </video>
+            </div>
+            <div>
+                <audio controls id="sound">
+                    <source src="../shipin/aircraft/_WStyle.mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/game.js"></script>
+</body>
+</html>

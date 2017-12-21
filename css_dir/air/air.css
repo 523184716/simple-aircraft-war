@@ -1,0 +1,40 @@
+.pg-back {
+    width: 100%;
+    height: 1000px;
+    background-color: #1CA2CE;
+}
+
+.air-back {
+    width: 400px;
+    height: 512px;
+    background: url("../../image/aircraft-war/img_bg_logo.jpg");
+    margin: 0px auto;
+    /*position: relative;*/
+    /*top: 50px;*/
+}
+
+.air {
+    width: 400px;
+    height: 300px;
+    background: url("../../image/aircraft-war/logo.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.startbuttom {
+    width: 200px;
+    height: 100px;
+    background: url("../../image/aircraft-war/button_start.png") no-repeat;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+.startbuttom:hover {
+    width: 250px;
+    height: 100px;
+    background: url("../../image/aircraft-war/button_start.png") no-repeat;
+    margin: 0 auto;
+    background-size: 100%;
+    cursor: pointer;
+}

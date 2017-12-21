@@ -1,0 +1,26 @@
+/*一些通用的cssy样式*/
+/*浏览器默认都有一些不同程度的margin、padding值，导致离最外层有点距离*/
+body,div,p{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/*去掉a标签默认的下划线*/
+a {
+    text-decoration: none;
+    font-size: 12px;
+    /*vertical-align: middle;*/
+    /*cursor: auto;*/
+    /*color: #999;*/
+}
+
+/*伪类标签，当鼠标放置到a标签上时，颜色吧变红，并且加上下划线*/
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*去掉无序标签前面的符号，比如：。。*/
+ul {
+    list-style: none;
+}
